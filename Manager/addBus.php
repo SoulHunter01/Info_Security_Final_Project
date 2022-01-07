@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OBRS</title>
+
+<link rel="stylesheet" type="text/css" href="http://localhost/SE-OBRS/General/homeDesign.css" />
+
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<a href ="manager.php"><img src ="http://localhost/SE-OBRS/General/logo.png"></a>
+			</div>
+			<ul>
+				<li class="active"><a href="addBus.php">Add Bus</a></li>
+				<li><a href="delBus.php">Delete Bus</a></li>
+				<li><a href="manager.php">Back</a></li>
+			</ul>
+		</div>
+	</header>
+	<br><br><br><br><br><br><br>
+
+	<center><img src="http://localhost/SE-OBRS/General/home1.png" width="1250" height="370"/></center>
+	<br><br>
+	<center><h1>Add new Bus</h1><br>
+	<p>Please fill the given form to add new Bus!<p><br></center>
+
+	<center><form action="addBus1.php" method="post">
+		<label>Registeration #:</label><input type="text" name="reg" placeholder="SGM-1234" required><br>
+		<label>Model:</label><input type="text" name="mod" required><br>
+		<label>Company:</label><input type="text" name="com" required><br>
+		<label>Color:</label><input type="text" name="col" required><br>
+		<label>Capacity:</label><input type="text" name="cap" required><br>
+		<label>Driver ID:</label><input type="text" name="dri" required><br><br>
+		<input type="submit" value="ADD"><br><br>
+	</form><center>
+
+	 <center><footer>
+	  <p1>
+			Twitter: <a href="https://twitter.com/faisalmovers?lang=en">https://twitter.com/OBRS?lang=en</a><br>
+			Facebook: <a href="https://www.facebook.com/FaisalMovers/">https://www.facebook.com/OBRS/</a><br>
+			About Us: <a href="http://localhost/SE-OBRS/about.php">http://OBRS.About_Us.com</a><br><br>
+			Copyright © 2020.OBRS</p1>
+	</footer></center>
+
+</body>
+
+</html>
