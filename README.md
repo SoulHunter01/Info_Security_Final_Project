@@ -4,7 +4,8 @@
 # Version             : 1.0
 # Copyright           : (c) Reserved
 # Description         : A CTF Website with hidden flags placed at different locations.
-# Usage               : The task of this CTF is to find all the hidden flags within a time limit.
+# Usage               : This CTF can be used in different CTF competitions 
+#                       but the original author must be credited.                       
 # Difficulty          : EASY
 # Required Softwares  : XAMPP, Any Desired Browser
 # =======================================================================================
