@@ -22,44 +22,64 @@ Install XAMPP Software using the following method:
 Database Name: obrs
 
 Table 1: bus
-1 reg       VARCHAR(500)
-2 model     VARCHAR(500)
-3 Company   VARCHAR(500)
-4 Color     VARCHAR(500)
-5 capacity  int(11)
-6 driver    int(11)
+1. reg       VARCHAR(500)
+2. model     VARCHAR(500)
+3. Company   VARCHAR(500)
+4. Color     VARCHAR(500)
+5. capacity  int(11)
+6. driver    int(11)
 
 Table 2: driver
-1 id (Primary Key)  int(11)
-2 name              VARCHAR(500)
-3 address           VARCHAR(500)
-4 phone             int(11)
-5 salary            int(11)
+1. id (Primary Key)  int(11)
+2. name              VARCHAR(500)
+3. address           VARCHAR(500)
+4. phone             int(11)
+5. salary            int(11)
 
 Table 3: manager
-1 id (Primary Key)  int(11)
-2 password          int(11)
-3 active            int(11)
+1. id (Primary Key)  int(11)
+2. password          int(11)
+3. active            int(11)
 
 Table 4: passenger
-1 id (Primary Key)  int(11)
-2 name              VARCHAR(500)
-3 address           VARCHAR(500)
-4 phone             int(11)
-5 p1                VARCHAR(500)
-6 active            int(11)
+1. id (Primary Key)  int(11)
+2. name              VARCHAR(500)
+3. address           VARCHAR(500)
+4. phone             int(11)
+5. p1                VARCHAR(500)
+6. active            int(11)
+
+Data for Table 4
+0 | Flag 4 | Congratulations!Flag 4 found! Everyone always skips About me Section! | 0 | 1234 | 0
 
 Table 5: reservation
-1  resid (Primary Key)   int(11)
-2  source                VARCHAR(500)
-3  dest                  VARCHAR(500)
-4  date                  VARCHAR(500)
-5  bus                   VARCHAR(500)
-6  noOfp                 int(11)
-7  total                 int(11)
-8  ae                    int(11)       // Amount Entered
-9  ar                    int(11)       // Amount Returned
-10 status                VARCHAR(500)
-11 pid                   int(11)
+1.  resid (Primary Key)   int(11)
+2.  source                VARCHAR(500)
+3.  dest                  VARCHAR(500)
+4.  date                  VARCHAR(500)
+5.  bus                   VARCHAR(500)
+6.  noOfp                 int(11)
+7.  total                 int(11)
+8.  ae                    int(11)       // Amount Entered
+9.  ar                    int(11)       // Amount Returned
+10. status                VARCHAR(500)
+11. pid                   int(11)
+
+Table 6: schedule
+1. id (Primary Key)   int(11)
+2. source             VARCHAR(500)
+3. dest               VARCHAR(500)
+4. time               VARCHAR(50)
+5. fare               int(11)
+6. bus                VARCHAR(500)
+7. seats              int(11)
+
+Table 7: staff
+1. id (Primary Key)   int(11)
+2. name               VARCHAR(500)
+3. address            VARCHAR(500)
+4. phone              int(11)
+5. password           VARCHAR(500)
+6. active             int(11)
 
 Best of Luck for this CTF :)
