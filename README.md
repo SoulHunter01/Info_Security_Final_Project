@@ -1,4 +1,4 @@
-# =======================================================================================
+# =============================================
 # Name                : Capture The Flag (CTF) Website
 # Author              : Zaid Siddiqui
 # Version             : 1.0
@@ -8,7 +8,7 @@
 #                       but the original author must be credited.                       
 # Difficulty          : EASY
 # Required Softwares  : XAMPP, Any Desired Browser
-# =======================================================================================
+# =============================================
 
 To use this CTF, Perform the following tasks first:
 
